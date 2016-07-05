@@ -1,0 +1,27 @@
+{
+    "name": "linchpinstudios/laravel-file-manager",
+    "description": "Larvel Filemanager for v5",
+    "keywords": ["File Management", "Image Management", "Image", "File", "Upload", "Resize", "Thumbnail"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Hagel",
+            "email": "joshhagel@linchpinstudios.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.4.0",
+      "illuminate/support": "5.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "mockery/mockery": "^0.9.5",
+        "laravel/framework": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "linchpinstudios\\Files\\": "src/app/"
+        }
+    }
+}
